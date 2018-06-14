@@ -3,7 +3,7 @@ A quick and dirty tool written in C to split UEFI/BIOS files into two or more bi
 
 # Usage:
 
-romsplit <filename> [size of chunk 1] ... [size of chunk n]
+romsplit [filename] [size of chunk 1] ... [size of chunk n]
 
 Chunk sizes can be specified in megabytes or kilobytes, e.g. 2048M or 128K will produce two chunks of 2 megabytes and 128 kilobytes, respectively.  If no unit is specified, then bytes are assumed.
 
